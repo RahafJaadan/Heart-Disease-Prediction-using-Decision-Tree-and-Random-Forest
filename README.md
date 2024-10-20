@@ -9,8 +9,26 @@ The dataset contains 14 medical attributes, including features like:
 * Cholesterol
 * trestbps
 * oldpeak	
+
 The target is to predict whether the patient has heart disease
 
 ## Algorithms
  * **Decision Tree**: A simple, interpretable model used for classification.
  * **Random Forest**: An ensemble method that improves accuracy by combining multiple decision trees.
+
+ ## Installation 
+ 1. Clone the repository.
+
+ ```git clone https://github.com/your-username/heart-disease-prediction.git ```
+
+ 2. Install dependencies.
+   
+``` pip install -r requirements.txt```
+
+## Usage 
+* Preprocess the data. 
+* Train and evaluate both models.
+*  Use the trained model to predict heart disease.
+
+ ## Results
+  Random Forest generally provides better accuracy than Decision Tree due to its ensemble nature.
